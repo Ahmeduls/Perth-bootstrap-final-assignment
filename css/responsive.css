@@ -1,0 +1,178 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-text {
+        margin-top: 41px;
+    }
+    .brand-text {
+        padding: 0px;
+    }
+    .brand-text h1 {
+        margin-bottom: 15px;
+    }
+    .device {
+        padding-top: 45px;
+        left: 0px;
+    }
+    /*    Brand*/
+    .device img {
+        width: 150px;
+        margin-right: 141px;
+    }
+    /*    Gallery*/
+    .gallery-text {
+        text-align: center;
+        margin-top: 403px;
+    }
+    .garray-img {
+        margin-top: 50px;
+        position: absolute;
+    }
+    .garray-img img {
+        width: 100%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .icon-bar {
+        margin-right: 30px;
+    }
+    .mobile img {
+        height: 301px;
+    }
+    .header-text h1 {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    .header-text {
+        text-align: center;
+    }
+    .header-text p {
+        font-size: 18px;
+        margin-bottom: 9px;
+    }
+    .mobile {
+        position: absolute;
+        left: 69px;
+        bottom: -629px;
+    }
+    .btn {
+        padding: 4px 15px;
+    }
+    .main-header {
+        min-height: 500px;
+    }
+    /*    Brand*/
+    .brand-text {
+        padding: 0px;
+        text-align: center;
+    }
+    .brand-text h1 {
+        color: #545454;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .brand-text p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 0px;
+    }
+    blockquote {
+        font-size: 14px;
+        border-left: 4px solid #4eacdd;
+    }
+    .btn.hellow-btn {
+        margin-top: 0px;
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+    .device {
+        position: absolute;
+        right: -66px;
+        padding-top: 28px;
+    }
+    .device img {
+        width: 150px;
+        margin-right: 141px;
+    }
+    /*    gallery*/
+    .garray-img {
+        margin-top: 10px;
+        position: absolute;
+    }
+    .garray-img img {
+        width: 100%;
+    }
+    .gallery-text {
+        position: absolute;
+        width: 100%;
+        margin-top: 233px;
+        text-align: center;
+    }
+    .gallery-text h1 {
+        margin-bottom: 13px;
+        font-size: 25px;
+    }
+    .gallery-text p {
+        font-size: 13px;
+        line-height: 1.4;
+        margin-bottom: 0px;
+    }
+    .gallery-text {
+        position: absolute;
+        width: 123%;
+        margin-top: 233px;
+        text-align: center;
+        padding-left: 90px;
+    }
+    .btn.btn-gallery {
+        background: transparent;
+        border: 2px solid #ea4c89;
+        color: #ea4c89;
+        margin-top: 34px;
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+    .gallery {
+        min-height: 550px;
+    }
+    /*    Social-field*/
+    .social-field {
+        min-height: 250px;
+    }
+    .social-field-content {
+        padding: 50px 0px;
+    }
+    .social-icon i {
+        width: 45px;
+        height: 45px;
+        border: 3px solid #545454;
+        border-radius: 50px;
+        color: #545454;
+        padding: 9px;
+        font-size: 21px;
+        margin-left: 10px;
+    }
+    /*    footer*/
+    footer .uparrow {
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+    .footer-text p {
+        font-size: 11px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
